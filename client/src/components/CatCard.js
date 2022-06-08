@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 
 const CatCard = ({cat}) => {
     return (
-        <tr key={cat.id}>
+        <tr>
             <td>{cat.id}</td>
             <td>{cat.name}</td>
             <td>
